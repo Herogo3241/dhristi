@@ -77,22 +77,22 @@ async function makeRequest() {
   });
 }
 
-// makeRequest()
+makeRequest()
 
 
-function runIfBetween6And7() {
-    var currentTime = new Date();
-    var currentHour = currentTime.getHours() + 5.5;
+// function runIfBetween6And7() {
+//     var currentTime = new Date();
+//     var currentHour = currentTime.getHours() + 5.5;
     
 
-    // Check if the current hour is between 18:00 (6pm) and 19:00 (7pm)
-    if (currentHour >= 18 && currentHour < 19) {
+//     // Check if the current hour is between 18:00 (6pm) and 19:00 (7pm)
+//     if (currentHour >= 18 && currentHour < 19) {
         
-        makeRequest();
-    } else {
-        console.log("Current time is not between 6pm and 7pm.");
-    }
-}
+//         makeRequest();
+//     } else {
+//         console.log("Current time is not between 6pm and 7pm.");
+//     }
+// }
 
 
-runIfBetween6And7();
+// runIfBetween6And7();
