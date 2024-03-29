@@ -82,8 +82,8 @@ async function makeRequest() {
 
 function runIfBetween6And7() {
     var currentTime = new Date();
-    var currentHour = currentTime.getHours();
-    console.log(currentHour);
+    var currentHour = currentTime.getHours() + 5.5;
+    
 
     // Check if the current hour is between 18:00 (6pm) and 19:00 (7pm)
     if (currentHour >= 18 && currentHour < 19) {
