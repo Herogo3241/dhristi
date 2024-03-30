@@ -22,7 +22,7 @@ This Node.js application fetches event data from a specified URL using Axios. It
 
 3. **Run the Application**:
    ```
-   node your_script_name.js
+   node index.js
    ```
 
 ### Additional Notes:
